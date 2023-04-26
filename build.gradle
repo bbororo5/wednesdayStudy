@@ -32,5 +32,6 @@ dependencies { // 프로젝트 개발에 필요한 의존성들을 선언
     /* 인메모리 관계형 데이터베이스
        별도의 설치 없이 프로젝트 의존성만으로 관리 */
     compile('com.h2database:h2')
+    compile('org.springframework.boot:spring-boot-starter-mustache')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
